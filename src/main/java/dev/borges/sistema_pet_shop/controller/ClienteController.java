@@ -38,7 +38,7 @@ public class ClienteController {
     }
 
     @DeleteMapping("/{id}")
-    public void deletarCliente(Long id) {
+    public void deletarCliente(@PathVariable Long id) {
         clienteService.deletarCliente(id);
     }
 
