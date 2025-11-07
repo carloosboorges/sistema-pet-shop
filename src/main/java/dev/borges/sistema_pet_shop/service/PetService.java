@@ -30,7 +30,7 @@ public class PetService {
                 .toList();
     }
 
-    public Optional<PetDTO> PetPorId(Long id){
+    public Optional<PetDTO> petPorId(Long id){
         Optional<PetModel> petEncontrado = petRepository.findById(id);
         return petEncontrado.map(petMapper::toDTO);
     }
