@@ -1,9 +1,7 @@
 package dev.borges.sistema_pet_shop.controller;
-
 import dev.borges.sistema_pet_shop.dto.PetDTO;
 import dev.borges.sistema_pet_shop.service.PetService;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Optional;
 
